@@ -1,27 +1,27 @@
 {
-    "name": "checkout-browser-kit",
-    "version": "0.0.11",
-    "description": "Browser kit for Ajax'ing and DOM manipulation. Contains other small helper functions.",
-    "main": "index.js",
-    "scripts": {
-        "test": "jasmine"
-    },
-    "keywords": [
-        "ajax",
-        "dom",
-        "browserify"
-    ],
-    "author": {
-        "name": "Riaz Bordie",
-        "email": "riaz.bordie@checkout.com",
-        "url": "http://twitter.com/riazb"
-    },
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/CKOTech/checkout-browser-kit.git"
-    },
-    "bugs": {
-        "url": "https://github.com/CKOTech/checkout-browser-kit/issues"
-    }
+  "name": "checkout-browser-kit",
+  "version": "0.0.12",
+  "description": "Browser kit for Ajax'ing and DOM manipulation. Contains other small helper functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "ajax",
+    "dom",
+    "browserify"
+  ],
+  "author": {
+    "name": "Riaz Bordie",
+    "email": "riaz.bordie@checkout.com",
+    "url": "http://twitter.com/riazb"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CKOTech/checkout-browser-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CKOTech/checkout-browser-kit/issues"
+  }
 }
