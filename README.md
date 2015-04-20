@@ -1,4 +1,5 @@
 **Browserify install**
+
 *npm install checkout-browser-kit*
 
 ## Ajax
