@@ -1,7 +1,7 @@
 **Browserify install**
 
 *npm install checkout-browser-kit*
-----------
+
 ## Ajax
 
 **CORS and JSONP**
