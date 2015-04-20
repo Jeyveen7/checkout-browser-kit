@@ -6,7 +6,7 @@
 **CORS and JSONP**
 
 ```js
-ajax(function(url, params, successCallback, errorCallback, options);
+function ajax(url, params, successCallback, errorCallback, options);
 ```
 
 **Constants**
@@ -47,25 +47,25 @@ ajaxConstants: {
 DOM manipulation and helper functions
 
 ```js
-DOM.ready(callback);
-DOM.createElement(tag, options);
-DOM.hasClass(element, cls);
-DOM.addClass(element, cls);
-DOM.removeClass(element, cls);
-DOM.enableElement(element);
-DOM.disableElement(element);
-DOM.addEventListener(target, eventName, callback);
-DOM.isElement(element);
-DOM.isJqueryLoaded();
-DOM.isJqueryElement(element);
-DOM.getElement(selector, fallbackElement);
+function ready(callback);
+function createElement(tag, options);
+function hasClass(element, cls);
+function addClass(element, cls);
+function removeClass(element, cls);
+function enableElement(element);
+function disableElement(element);
+function addEventListener(target, eventName, callback);
+function isElement(element);
+function isJqueryLoaded();
+function isJqueryElement(element);
+function getElement(selector, fallbackElement);
 ```
 
 # Utils
 
 ```js
-isValidJSON(jsonString);
-toQueryString(url, params);
-extend(target, ...);
-getIEVersion();
+function isValidJSON(jsonString);
+function toQueryString(url, params);
+function extend(target, ...);
+function getIEVersion();
 ```
