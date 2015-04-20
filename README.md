@@ -1,7 +1,7 @@
 **Browserify install**
 *npm install checkout-browser-kit*
 
-# Ajax
+## Ajax
 
 **CORS and JSONP**
 
@@ -42,7 +42,7 @@ ajaxConstants: {
 }
 ```
 
-# DOM
+## DOM
 
 DOM manipulation and helper functions
 
@@ -61,7 +61,7 @@ function isJqueryElement(element);
 function getElement(selector, fallbackElement);
 ```
 
-# Utils
+## Utils
 
 ```js
 function isValidJSON(jsonString);
