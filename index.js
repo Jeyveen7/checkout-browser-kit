@@ -1,6 +1,19 @@
 /******* Polyfills ********/
 (function() {
     // Define window.console - IE bug if Developer Tools is not open
+
+//The console object is only activated when the Dev Toolbar is opened. Prior to that, calling the console object will result in it being reported as undefined. After the toolbar has been opened, the console will exist (even if the toolbar is subsequently closed), so your console calls will then work.
+
+//There are a few solutions to this:
+
+//The most obvious one is to go through your code removing references to console. You shouldn't be leaving stuff like that in production code anyway.
+
+
+//***************Solution currently applied*******************//
+//If you want to keep the console references, you could wrap them in an if() statement, or some other conditional which checks whether the console object exists before trying to call it.//
+
+
+
     if (typeof window.console === 'undefined') {
         // silently fails
         window.console = {
